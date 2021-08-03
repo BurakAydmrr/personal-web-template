@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background: url(./img/worlex.gif);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+
+.profile-body {
+    background: #2c3a47;
+    padding: 60px 40px;
+}
+
+.jpg {
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #C83035, #202330);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200% ;
+    animation: animated-gradient 2s linear infinite;
+
+}
+@keyframes animated-gradient{
+    25%{
+      background-position: left bottom;
+    }
+    50%{
+      background-position: right bottom;
+    }
+    75%{
+      background-position: right top;
+    }
+    100%{
+      background-position: left top;
+    }
+  }
+
+
+.jpg img {
+        display: block;
+        width: 100px;
+        height: 100px;
+}
+
+.name {
+
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.text {
+    font-size: 18px;
+    color: #e66767;
+}
+
+
+.worlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 10px-;
+}
+
+
+.worlex a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+i {
+    padding: 10px 10px;
+}
