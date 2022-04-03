@@ -1,9 +1,5 @@
-# personel-web-template
+# Personal WebSite Template
 
-
-<b> Kendiniz için Basit Tarzda Bir Site </b>
-
+**Kendiniz için Basit Tarzda Bir Site**
  
- index.html açıp belirtilen yerleri Doldurmayı unutmayın !
-  
-  
+index.html dosyasını açıp belirtilen yerleri Doldurmayı unutmayın !
